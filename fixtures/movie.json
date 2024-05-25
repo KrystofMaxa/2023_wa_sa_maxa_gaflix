@@ -1,0 +1,57 @@
+[
+    {
+      "model": "filmy.movie",
+      "pk": 5,
+      "fields": {
+        "name": "Inception",
+        "year": 2010,
+        "footage": 148,
+        "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+        "main_picture": ""
+      }
+    },
+    {
+      "model": "filmy.movie",
+      "pk": 6,
+      "fields": {
+        "name": "Interstellar",
+        "year": 2014,
+        "footage": 169,
+        "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+        "main_picture": ""
+      }
+    },
+    {
+      "model": "filmy.movie",
+      "pk": 7,
+      "fields": {
+        "name": "Parasite",
+        "year": 2019,
+        "footage": 132,
+        "description": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+        "main_picture": ""
+      }
+    },
+    {
+      "model": "filmy.movie",
+      "pk": 8,
+      "fields": {
+        "name": "The Dark Knight",
+        "year": 2008,
+        "footage": 152,
+        "description": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+        "main_picture": ""
+      }
+    },
+    {
+      "model": "filmy.movie",
+      "pk": 9,
+      "fields": {
+        "name": "The Matrix",
+        "year": 1999,
+        "footage": 136,
+        "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+        "main_picture": ""
+      }
+    }
+  ]

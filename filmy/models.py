@@ -1,6 +1,6 @@
 from django.db import models
 from datetime import date
-
+#jednotlive tabulky
 class Movie(models.Model):
     name = models.CharField(max_length=300, null=True)
     year = models.PositiveSmallIntegerField(blank=True, null=True)
@@ -35,6 +35,12 @@ class Actor(models.Model):
     birth_year = models.PositiveSmallIntegerField(blank=True, null=True)
     description = models.TextField(blank=True)
     main_picture = models.ImageField(blank=True, null=True)
+
+    def __str__(self):
+        return self.name
+
+class Fotbal(models.Model):
+    name = models.CharField(max_length=300, null=True)
 
     def __str__(self):
         return self.name
