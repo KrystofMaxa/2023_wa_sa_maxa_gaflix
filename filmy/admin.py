@@ -34,3 +34,18 @@ class ActorAdmin(admin.ModelAdmin):
     search_fields = ["=id", "name"]
     list_filter = ["birth_year"]
     list_editable = ["birth_year"]
+
+class FotbalAdmin(admin.ModelAdmin):
+    list_display = ["id", "name"]
+    list_display_links = ["id", "name"]
+    search_fields = ["=id", "name"]
+   
+
+admin.site.register(Movie, MovieAdmin)
+
+admin.site.register(Actor, ActorAdmin)
+
+admin.site.register(Director, DirectorAdmin)
+
+admin.site.register(Genre, GenreAdmin)
+admin.site.register(Fotbal, FotbalAdmin)
