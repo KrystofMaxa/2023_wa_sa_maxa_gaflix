@@ -13,3 +13,13 @@ def movie(request,id):
         'movie': Movie.objects.get(id=id)
     }
     return render(request, 'filmy/movie.html', context)
+def actors(request,id):
+    context = {
+        'actors': Actor.objects.all().order_by('name')
+    }
+    return render(request, 'filmy/actors.html', context)
+def actor(request,id):
+    context = {
+        'actor': Actor.objects.get(id=id)
+    }
+    return render(request, 'filmy/actor.html', context)
